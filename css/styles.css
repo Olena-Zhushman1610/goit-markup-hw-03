@@ -172,6 +172,10 @@ img {
   gap: 24px;
 }
 
+.one-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .one {
   padding: 120px 0px;
 }
@@ -196,6 +200,15 @@ img {
   padding: 120px 0px;
 }
 
+.twop {
+  text-align: center;
+}
+
+.twoh3 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
 .two-title {
   font-weight: 700;
   font-size: 36px;
@@ -204,12 +217,24 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
+
+.two-two-list {
+  display: flex;
+  gap: 24px;
+}
+
+.two-container {
+  padding: 32px 0;
+}
+
 .two {
   background-color: #f4f4fd;
 }
 .two-list {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
 }
 
 /* three sections*/
