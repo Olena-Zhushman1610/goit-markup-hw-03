@@ -71,10 +71,6 @@ a {
   gap: 40px;
 }
 
-.contacts-list {
-  display: flex;
-  align-items: center;
-}
 
 .nav-link {
   display: block;
