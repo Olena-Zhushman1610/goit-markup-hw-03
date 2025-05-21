@@ -21,19 +21,20 @@ p {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
 .container {
   width: 1158px;
   padding: 0px 15px;
   margin: 0 auto;
 }
 
-.img {
+img {
   display: block;
 }
 
-a {
-  text-decoration: none;
-}
+/* header */
 
 .header-container {
   display: flex;
@@ -71,7 +72,6 @@ a {
   gap: 40px;
 }
 
-
 .nav-link {
   display: block;
   padding: 24px 0px;
@@ -103,21 +103,26 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.page-footer {
-  background-color: #2e2f42;
+
+/* hero sections*/
+.hero {
+  padding: 188px 0px;
 }
 
-.footer-logo .logo-part {
-  color: #f4f4fd;
+.hero-title {
+  max-width: 496px;
+  margin: auto;
 }
 
-.text-footer {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
+.hero-btn {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin: auto;
 }
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -144,6 +149,12 @@ a {
 .hero-btn:focus {
   background-color: #404bbf;
 }
+
+/* one sections*/
+
+.one {
+  padding: 120px 0px;
+}
 .one-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -157,6 +168,13 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* two sections*/
+
+.two {
+  padding: 120px 0px;
+}
+
 .two-title {
   font-weight: 700;
   font-size: 36px;
@@ -171,4 +189,34 @@ a {
 }
 .two-list {
   background-color: #ffffff;
+}
+
+/* three sections*/
+
+.three {
+  padding: 120px 0px;
+}
+
+/*footer sections*/
+
+.page-footer {
+  background-color: #2e2f42;
+  padding: 100px 0px;
+}
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.text-footer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
