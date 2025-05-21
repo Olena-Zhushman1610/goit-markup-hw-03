@@ -32,6 +32,8 @@ a {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* header */
@@ -161,6 +163,7 @@ img {
   overflow: hidden;
   clip: rect(0 0 0 0);
   white-space: nowrap;
+  clip-path: inset(100%);
   border: 0;
 }
 
