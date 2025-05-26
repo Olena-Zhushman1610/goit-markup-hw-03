@@ -114,6 +114,7 @@ img {
 .hero-title {
   max-width: 496px;
   margin: auto;
+  margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -286,4 +287,5 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
